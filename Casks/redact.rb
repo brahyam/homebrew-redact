@@ -2,8 +2,7 @@ cask "redact" do
   version "0.13.0"
   sha256 "b2214bcee5185326a9545d3a251a78e0b5a23feb1ff74ccb31b2d941fb337850"
 
-  url "https://github.com/brahyam/useredact-releases/releases/download/v#{version}/REDACT_#{version}_aarch64.dmg",
-      verified: "github.com/brahyam/useredact-releases/"
+  url "https://github.com/brahyam/useredact-releases/releases/download/v#{version}/REDACT_#{version}_aarch64.dmg"
   name "REDACT"
   desc "Meeting recorder that transcribes calls and writes the notes on-device"
   homepage "https://useredact.com/"

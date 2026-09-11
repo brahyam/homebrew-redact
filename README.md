@@ -4,9 +4,12 @@ The Homebrew tap for [REDACT](https://useredact.com) — a Mac meeting recorder
 that transcribes the call and writes the notes on your own machine.
 
 ```sh
-brew tap brahyam/redact
-brew install --cask redact
+brew install --cask brahyam/redact/redact
 ```
+
+One command, cold — it taps on the way. Spell the tap out like that rather than
+`brew tap` first: since Homebrew 6, `brew tap` on a third-party tap stops and
+tells you to run `brew trust`, and a fully-qualified install skips that detour.
 
 Then launch REDACT from Applications. On first run it downloads the models it
 transcribes and writes with (about 2.4 GB, once); after that it needs no
