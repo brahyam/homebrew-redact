@@ -1,6 +1,6 @@
 cask "redact" do
-  version "0.16.0"
-  sha256 "0660745595827ddfd4832f56daf9b75a5355339c7fa08fcfedef9a61f3f86e4f"
+  version "0.17.0"
+  sha256 "24c73686573b8fb4881480b74f2f9405bd224bad809d65f1d110a2cc4dd75742"
 
   url "https://github.com/brahyam/useredact-releases/releases/download/v#{version}/REDACT_#{version}_aarch64.dmg"
   name "REDACT"
